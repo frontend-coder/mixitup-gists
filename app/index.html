@@ -2,70 +2,289 @@
 <html lang="ru">
 
 <head>
-    <meta charset="utf-8" />
-    <!-- <base href="/"> -->
-    <title>MixitUp - крутые заготовки портфолио</title>
-    <meta name="description" content="Олег Василенко самый лучший исполнитель, который способен создать качественные сайты с нуля" />
-    <meta name="keywords" content="создать сайт с нуля, верстаю быстрые шаблоны">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Олег Василенко">
-    <meta name="copyright" content="Все права на сайт и размещенные материалы в рамках данного проекта принадлежат Олегу Василенко">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
-    <!-- 3 нижние строки Chrome, Firefox OS and Opera; Windows Phone; iOS Safari    -->
-    <meta name="theme-color" content="#000">
-    <meta name="msapplication-navbutton-color" content="#000">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
-    <style>
-    html {
-        background-color: #fff;
-    }
+	<meta charset="utf-8" />
+	<!-- <base href="/"> -->
+	<title>MixitUp - крутые заготовки портфолио</title>
+	<meta name="description" content="Олег Василенко самый лучший исполнитель, который способен создать качественные сайты с нуля" />
+	<meta name="keywords" content="создать сайт с нуля, верстаю быстрые шаблоны">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Олег Василенко">
+	<meta name="copyright" content="Все права на сайт и размещенные материалы в рамках данного проекта принадлежат Олегу Василенко">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" />
+	<!-- 3 нижние строки Chrome, Firefox OS and Opera; Windows Phone; iOS Safari    -->
+	<meta name="theme-color" content="#000">
+	<meta name="msapplication-navbutton-color" content="#000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<style>
+		html {
+			background-color: #fff;
+		}
 
-    body {
-        opacity: 0;
-        overflow-x: hidden;
-    }
-    </style>
-    <link rel="stylesheet" href="css/libs.min.css" />
+		body {
+			opacity: 0;
+			overflow-x: hidden;
+		}
+	</style>
+	<link rel="stylesheet" href="css/libs.min.css" />
 </head>
 
 <body>
-    <!-- Custom HTML -->
-    <header id="header" class="header_fon">
-        <div class="header_content">
-            <h1>Найдите крутые заготовки кода </h1>
-            <div class="in_hea">Это прикольное название блока</div>
-        </div>
-    </header><!-- /header -->
-    <main>
-        <section class="block">
-            <div class="container">
-                <h2 class="block_title">Первое крутое портфолио</h2>
-                <div class="row">
-                </div>
-            </div>
-        </section> <!-- /section block -->
-        <section class="block block_first">
-            <div class="container">
-                <h2 class="block_title">Второе крутое портфолио</h2>
-                <div class="row">
-                </div>
-            </div>
-        </section> <!-- /section block -->
-    </main><!-- /main -->
-    <footer>
-        <div class="conteiner">
-            <div class="row">
-                <div class="footer_wrap">
-                    <div class="footer_items">Первое портфолио</div>
-                    <div class="footer_items">Второе портфолио</div>
-                    <div class="footer_items">Третье портфолио</div>
-                </div>
-            </div>
-        </div>
-    </footer><!-- /footer -->
-    <script src="js/scripts.min.js"></script>
+	<!-- Custom HTML -->
+	<header id="header" class="header_fon">
+		<div class="header_content">
+			<h1>Найдите крутые заготовки кода </h1>
+			<div class="in_hea">Это прикольное название блока</div>
+		</div>
+	</header><!-- /header -->
+	<main>
+
+
+		<section class="block coolmixitup_one">
+			<div class="container">
+				<h2 class="block_title">Первое крутое портфолио</h2>
+				<div class="row">
+					<ul id="filter-list" class="clearfix controls">
+						<button class="filter waves-effect waves-light btn" data-filter="all">Все</button>
+						<button class="filter waves-effect waves-light btn" data-filter=".webdesign">Web дизайн</button>
+						<button class="filter waves-effect waves-light btn" data-filter=".wordpress">WordPress</button>
+						<button class="filter waves-effect waves-light btn" data-filter=".reactapp">Reactjs проложения</button>
+						<button class="filter waves-effect waves-light btn" data-filter=".marketanalis">Анализ рынка</button>
+						<button class="filter waves-effect waves-light btn" data-filter=".photoshop">Photoshop</button>
+					</ul><!-- @end #filter-list -->
+
+					<ul id="portfolio">
+						<li class="mix webdesign">
+							<img src="img/mixitupfirst/1.jpg" alt="первая картинка">
+							<a class="port_link" href="img/mixitupfirst/1.jpg"></a>
+						</li>
+
+						<li class="mix wordpress">
+							<img src="img/mixitupfirst/2.jpg" alt="вторая картинка">
+							<a class="port_link" href="img/mixitupfirst/2.jpg"></a>
+						</li>
+
+						<li class="mix reactapp">
+							<img src="img/mixitupfirst/3.jpg" alt="третья картинка">
+							<a class="port_link" href="img/mixitupfirst/3.jpg"></a>
+						</li>
+
+						<li class="mix marketanalis">
+							<img src="img/mixitupfirst/4.jpg" alt="четвертая картинка">
+							<a class="port_link" href="img/mixitupfirst/4.jpg"></a>
+						</li>
+
+						<li class="mix logo photoshop">
+							<img src="img/mixitupfirst/5.jpg" alt="пятая картинка">
+							<a class="port_link" href="img/mixitupfirst/5.jpg"></a>
+						</li>
+
+						<li class="mix webdesign">
+							<img src="img/mixitupfirst/6.jpg" alt="шестая картинка">
+							<a class="port_link" href="img/mixitupfirst/6.jpg"></a>
+						</li>
+
+						<li class="mix wordpress">
+							<img src="img/mixitupfirst/7.jpg" alt="седьмая картинка">
+							<a class="port_link" href="img/mixitupfirst/7.jpg"></a>
+						</li>
+
+						<li class="mix reactapp">
+							<img src="img/mixitupfirst/8.jpg" alt="третья картинка">
+							<a class="port_link" href="img/mixitupfirst/8.jpg"></a>
+						</li>
+
+						<li class="mix marketanalis">
+							<img src="img/mixitupfirst/9.jpg" alt="четвертая картинка">
+							<a class="port_link" href="img/mixitupfirst/9.jpg"></a>
+						</li>
+
+						<li class="mix logo photoshop">
+							<img src="img/mixitupfirst/10.jpg" alt="пятая картинка">
+							<a class="port_link" href="img/mixitupfirst/10.jpg"></a>
+						</li>
+
+					</ul>
+
+				</div>
+			</div>
+		</section> <!-- /section block -->
+
+
+		<section class="block block_first coolmixitup_one">
+			<div class="container">
+				<h2 class="block_title">Второе крутое портфолио</h2>
+				<div class="row">
+					<div data-ref="container-2">
+						<ul id="filter-list1" class="clearfix controls">
+							<button class="filter1" data-filter="all1">Все</button>
+							<button class="filter1" data-filter=".webdesign1" >Web дизайн</button>
+							<button class="filter1" data-filter=".wordpress1" >WordPress</button>
+							<button class="filter1" data-filter=".reactapp1" >Reactjs проложения</button>
+							<button class="filter1" data-filter=".marketanalis1">Анализ рынка</button>
+							<button class="filter1" data-filter=".photoshop1" >Photoshop</button>
+
+							<button class="sort1" data-sort="myorder:asc">Прямая</button>
+							<button class="sort1" data-sort="myorder:desc">Обратная</button>
+						</ul><!-- @end #filter-list -->
+
+						<ul id="portfolio_two">
+							<li class="mix webdesign1" data-myorder="1">
+								<img src="img/mixitupfirst/1.jpg" alt="первая картинка">
+								<a class="port_link_two" href="img/mixitupfirst/1.jpg"></a>
+							</li>
+
+							<li class="mix wordpress1" data-myorder="2">
+								<img src="img/mixitupfirst/2.jpg" alt="вторая картинка">
+								<a class="port_link_two" href="img/mixitupfirst/2.jpg"></a>
+							</li>
+
+							<li class="mix reactapp1" data-myorder="3">
+								<img src="img/mixitupfirst/3.jpg" alt="третья картинка">
+								<a class="port_link_two" href="img/mixitupfirst/3.jpg"></a>
+							</li>
+
+							<li class="mix marketanalis1" data-myorder="4">
+								<img src="img/mixitupfirst/4.jpg" alt="четвертая картинка">
+								<a class="port_link_two" href="img/mixitupfirst/4.jpg"></a>
+							</li>
+
+							<li class="mix logo photoshop1" data-myorder="5">
+								<img src="img/mixitupfirst/5.jpg" alt="пятая картинка">
+								<a class="port_link_two" href="img/mixitupfirst/5.jpg"></a>
+							</li>
+
+							<li class="mix webdesign1" data-myorder="6">
+								<img src="img/mixitupfirst/6.jpg" alt="шестая картинка">
+								<a class="port_link_two" href="img/mixitupfirst/6.jpg"></a>
+							</li>
+
+							<li class="mix wordpress1" data-myorder="7">
+								<img src="img/mixitupfirst/7.jpg" alt="седьмая картинка">
+								<a class="port_link_two" href="img/mixitupfirst/7.jpg"></a>
+							</li>
+
+							<li class="mix reactapp1" data-myorder="8">
+								<img src="img/mixitupfirst/8.jpg" alt="третья картинка">
+								<a class="port_link_two" href="img/mixitupfirst/8.jpg"></a>
+							</li>
+
+							<li class="mix marketanalis1" data-myorder="9">
+								<img src="img/mixitupfirst/9.jpg" alt="четвертая картинка">
+								<a class="port_link_two" href="img/mixitupfirst/9.jpg"></a>
+							</li>
+
+							<li class="mix logo photoshop1" data-myorder="10">
+								<img src="img/mixitupfirst/10.jpg" alt="пятая картинка">
+								<a class="port_link_two" href="img/mixitupfirst/10.jpg"></a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section> <!-- /section block -->
+
+
+
+		<section class="block coolmixitup_tree">
+			<div class="container">
+				<h2 class="block_title">Третье крутое портфолио</h2>
+				<div class="row">
+					<ul id="filter-list" class="clearfix controls">
+						<!-- 		<button class="filter3 waves-effect waves-light btn" data-filter="all">Все</button> -->
+						<button class="filter3 waves-effect waves-light btn" data-filter=".webdesign3">Web дизайн</button>
+						<button class="filter3 waves-effect waves-light btn" data-filter=".wordpress3">WordPress</button>
+						<button class="filter3 waves-effect waves-light btn" data-filter=".reactapp3">Reactjs проложения</button>
+						<button class="filter3 waves-effect waves-light btn" data-filter=".marketanalis3">Анализ рынка</button>
+						<button class="filter3 waves-effect waves-light btn" data-filter=".photoshop3">Photoshop</button>
+					</ul><!-- @end #filter-list -->
+
+					<ul id="portfolio_tree">
+						<li class="mix webdesign3">
+							<img src="img/mixitupfirst/1.jpg" alt="первая картинка">
+							<a class="port_link_tree" href="img/mixitupfirst/1.jpg"></a>
+						</li>
+
+						<li class="mix wordpress3">
+							<img src="img/mixitupfirst/2.jpg" alt="вторая картинка">
+							<a class="port_link_tree" href="img/mixitupfirst/2.jpg"></a>
+						</li>
+
+						<li class="mix reactapp3">
+							<img src="img/mixitupfirst/3.jpg" alt="третья картинка">
+							<a class="port_link_tree" href="img/mixitupfirst/3.jpg"></a>
+						</li>
+
+						<li class="mix marketanalis3">
+							<img src="img/mixitupfirst/4.jpg" alt="четвертая картинка">
+							<a class="port_link_tree" href="img/mixitupfirst/4.jpg"></a>
+						</li>
+
+						<li class="mix logo photoshop3">
+							<img src="img/mixitupfirst/5.jpg" alt="пятая картинка">
+							<a class="port_link_tree" href="img/mixitupfirst/5.jpg"></a>
+						</li>
+
+						<li class="mix webdesign3">
+							<img src="img/mixitupfirst/6.jpg" alt="шестая картинка">
+							<a class="port_link_tree" href="img/mixitupfirst/6.jpg"></a>
+						</li>
+
+						<li class="mix wordpress3">
+							<img src="img/mixitupfirst/7.jpg" alt="седьмая картинка">
+							<a class="port_link_tree" href="img/mixitupfirst/7.jpg"></a>
+						</li>
+
+						<li class="mix reactapp3">
+							<img src="img/mixitupfirst/8.jpg" alt="третья картинка">
+							<a class="port_link_tree" href="img/mixitupfirst/8.jpg"></a>
+						</li>
+
+						<li class="mix marketanalis3">
+							<img src="img/mixitupfirst/9.jpg" alt="четвертая картинка">
+							<a class="port_link_tree" href="img/mixitupfirst/9.jpg"></a>
+						</li>
+
+						<li class="mix logo photoshop3">
+							<img src="img/mixitupfirst/10.jpg" alt="пятая картинка">
+							<a class="port_link_tree" href="img/mixitupfirst/10.jpg"></a>
+						</li>
+
+					</ul>
+
+				</div>
+			</div>
+		</section> <!-- /section block -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</main><!-- /main -->
+	<footer>
+		<div class="conteiner">
+			<div class="row">
+				<div class="footer_wrap">
+					<div class="footer_items">Первое портфолио</div>
+					<div class="footer_items">Второе портфолио</div>
+					<div class="footer_items">Третье портфолио</div>
+				</div>
+			</div>
+		</div>
+	</footer><!-- /footer -->
+	<script src="js/scripts.min.js"></script>
 </body>
 
 </html>

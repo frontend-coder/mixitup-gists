@@ -1,13 +1,61 @@
 
-.heagerclass {
-	font-size: 2rem;
-}
-.heagerclass {
-
-background-color: red;
-padding: 50px 0;
+#portfolio_tree .mix {
+    display: none;
 }
 
-.heagerclass_title {
+.mix image {
+
+}
+.coolmixitup_tree .controls {
+
+margin-bottom: 30px;
+}
+.coolmixitup_tree .controls button {
+padding: 10px 20px;
+font-size: 1.4rem;
+background-color: orange;
 color:#fff;
+border:none;
+cursor: pointer;
+}
+.coolmixitup_tree .controls button:focus,
+.coolmixitup_tree .controls button:hover,
+.coolmixitup_tree .controls button:active {
+background-color:  darken(orange, 20%);
+}
+#portfolio_tree li  {
+	width: 24.5%;
+	border:1px solid red;
+	position: relative;
+	cursor: pointer;
+}
+#portfolio_tree li:before {
+	opacity: 0.5;
+ background-color: orange;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+position: absolute;
+content: " ";
+
+}
+
+
+#portfolio_tree li img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.port_link_tree {
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	background-image: url(../img/search.png);
 }
