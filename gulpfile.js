@@ -152,15 +152,15 @@ gulp.task('rsync', function() {
 });
 
 // npm install --save-dev gulp-ftp vinyl-ftp
-//FTP: ftp://vh146.timeweb.ru
-//Логин: cc63120
-//Пароль: j7X4Y36Od5Zm
+//FTP: ftp://vh210.timeweb.ru
+//Логин: cf17814
+//Пароль: SoPimw1PT0mo
 
 gulp.task('ftp', function() {
     var conn = vinyFTP.create({
-        host: 'vh116.timeweb.ru',
-        user: 'cx76534',
-        password: 'PowO7q2Qcv2Y',
+   host:     'vh210.timeweb.ru',
+   user:     'cf17814',
+   password: 'SoPimw1PT0mo',
         parallel: 10,
         log: gulpUtil.log
     });
