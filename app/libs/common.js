@@ -164,17 +164,29 @@ animateResizeContainer : false,
     });
 
 
+  $(".menu").on('click',function(){
+    $(this).find(".hambergerIcon").toggleClass("openes");
+    $(".navigation").toggleClass("npactive");
+  });
 
+	// $(".hambergerIcon").click(function () {
+	// 	$(".navigation-primary").toggleClass("active").animate({margin-left: "1"}, 'slow');
+	// });
 
+	var nav = $('.container_humburger');
 
-
-
-
-
-
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 400) {
+			nav.addClass("f-nav");
+		} else {
+			nav.removeClass("f-nav");
+		}
+	});
+// https://www.jqueryscript.net/menu/
 
 
 
 });
 //castom code
+
 
